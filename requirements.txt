@@ -1,0 +1,10 @@
+torch>=2.1.1
+transformers>=4.38.2
+accelerate
+trl 
+peft
+sentencepiece
+protobuf  
+cpm_kernels 
+gradio 
+mdtex2html 
