@@ -43,7 +43,7 @@ Please analyze this data in xml format and use the data to answer questions whil
     </4>
 </data>
 
-<instructions>
+<instruction>
 Analyze the list of data fragments. Each data fragment has the following attributes:
 - TEXT: scanned text
 - X: X coordinate of the center of the bounding box
@@ -53,7 +53,7 @@ Analyze the list of data fragments. Each data fragment has the following attribu
 - DISTANCE: distance to the center of the camera
 
 Use the given data to answer questions from user. Return your answer in <answer></answer> tags.
-</instructions>
+</instruction>
 
 <example>
     <question>What did the person order?</question>
