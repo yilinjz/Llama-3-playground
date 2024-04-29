@@ -31,7 +31,7 @@ class LlamaLLM():
     def run_inference(
         self,
         inputs: str,
-        temperature: float = 0.01,
+        temperature: float = 0.7,
         top_k: int = 20,
         top_p: float = 1.0,
         num_return_sequences: int = 1,

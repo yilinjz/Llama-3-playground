@@ -20,10 +20,10 @@ class PromptGenerator():
             instruction = f"<instruction>{''.join(f.readlines())}</instruction>\n\n"
         # example
         with open('prompt/example_question.txt', 'r') as f:
-            question = f"<question>{''.join(f.readlines())}</question>\n\n"
+            question = f"<question>\n{''.join(f.readlines())}</question>\n\n"
         with open('prompt/example_answer.txt', 'r') as f:
-            answer = f"<answer>{''.join(f.readlines())}</answer>\n\n"
-        example = f"<example>{question}{answer}</example>"
+            answer = f"<answer>\n{''.join(f.readlines())}</answer>\n"
+        example = f"<example>\n{question}{answer}</example>\n\n"
         question = f"<question>{query}</question>\n\n"
         answer = f"<answer></answer>\n\n"
 
