@@ -31,11 +31,11 @@ class LlamaLLM():
     def run_inference(
         self,
         inputs: str,
-        temperature: float = 0.7,
+        temperature: float = 0.6,
         top_k: int = 20,
-        top_p: float = 1.0,
+        top_p: float = 0.9,
         num_return_sequences: int = 1,
-        max_new_tokens: int = 200
+        max_new_tokens: int = 256
     ) -> str:
         outputs = self._pipeline(
             inputs,
@@ -45,8 +45,11 @@ class LlamaLLM():
             top_p=top_p,
             num_return_sequences=num_return_sequences,
             max_new_tokens=max_new_tokens,
-            # pad_token_id=self._tokenizer.eos_token_id,
-            # eos_token_id=self._tokenizer.eos_token_id,
+            eos_token_id=[
+                    self._pipeline.tokenizer.eos_token_id,
+                    self._pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
+                ],
+            pad_token_id=self._pipelinepipeline.tokenizer.eos_token_id,   
         )
         return outputs[0]['generated_text']
         
