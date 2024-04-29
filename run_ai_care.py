@@ -21,7 +21,7 @@ def main(args):
 
 
 """ sample run:
-python run_ai_care.py  --model_id=meta-llama/Meta-Llama-3-8B-Instruct --path_to_data=ai_care/data/json/ocr_azure.json
+python run_ai_care.py  --model_id=meta-llama/Meta-Llama-3-8B-Instruct --path_to_data=data/json/ocr_azure.json
 """
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
