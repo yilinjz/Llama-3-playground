@@ -43,7 +43,7 @@ class LlamaLLM():
             top_k=top_k,
             top_p=top_p,
             num_return_sequences=num_return_sequences,
-            eos_token_id=self._tokenizer.eos_token_id,
+            # eos_token_id=self._tokenizer.eos_token_id,
             max_new_tokens=max_new_tokens,
         )
         return outputs[0]['generated_text']
