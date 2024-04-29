@@ -31,7 +31,7 @@ class AICareAgent():
         while True:
             query = input("Ask a question: ")
             response = self.chat(query)
-            print(response)
+            print(f"[AFTER-FILTERING] {response}")
 
     def chat(
         self,
@@ -39,6 +39,7 @@ class AICareAgent():
     ) -> str:
         prompt = self._prompt_generator.create_prompt(query)
         response = self._llm.run_inference(prompt)
+        print(f"[PRE-FILTERING] {response}")
 
         pattern = re.compile(r"<answer>(.*?)</answer>")
         response = pattern.findall(response)

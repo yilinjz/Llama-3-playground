@@ -9,6 +9,9 @@ class LlamaLLM():
         model_id: str = "meta-llama/Meta-Llama-3-8B-Instruct"
     ) -> None:
         self._model_id = model_id
+        self._model = LlamaTokenizer.from_pretrained(model_id),
+        self._tokenizer = LlamaForCausalLM.from_pretrained(model_id)
+
         if "Meta-Llama-3" in self._model_id:
             self._pipeline = transformers.pipeline(
                 "text-generation", 
@@ -19,8 +22,8 @@ class LlamaLLM():
         elif "Llama-2" in self._model_id:
             self._pipeline = transformers.pipeline(
                 "text-generation",
-                model=LlamaTokenizer.from_pretrained(model_id),
-                tokenizer=LlamaForCausalLM.from_pretrained(model_id),
+                model=self._model,
+                tokenizer=self._tokenizer,
                 torch_dtype=torch.float16,
                 device_map="auto",
             )
@@ -43,8 +46,9 @@ class LlamaLLM():
             top_k=top_k,
             top_p=top_p,
             num_return_sequences=num_return_sequences,
-            # eos_token_id=self._tokenizer.eos_token_id,
             max_new_tokens=max_new_tokens,
+            pad_token_id=self._tokenizer.eos_token_id,
+            eos_token_id=self._tokenizer.eos_token_id,
         )
         return outputs[0]['generated_text']
         
