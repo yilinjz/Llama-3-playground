@@ -49,7 +49,7 @@ class LlamaLLM():
                     self._pipeline.tokenizer.eos_token_id,
                     self._pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
                 ],
-            pad_token_id=self._pipelinepipeline.tokenizer.eos_token_id,   
+            pad_token_id=self._pipeline.tokenizer.eos_token_id,   
         )
         return outputs[0]['generated_text']
         
