@@ -20,7 +20,7 @@ class AICareAgent():
         # json data as dict
         self._data = json.load(open(path_to_data))
         # text data only, separated by ','
-        self._context = ','.join([obj['TEXT'] for obj in self._data])
+        self._context = f"[{', '.join([obj['TEXT'] for obj in self._data])}]"
 
     def start_conversation(
             self

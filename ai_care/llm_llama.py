@@ -9,7 +9,6 @@ class LlamaLLM():
         model_id: str = "meta-llama/Meta-Llama-3-8B-Instruct"
     ) -> None:
         self._model_id = model_id
-
         if "Meta-Llama-3" in self._model_id:
             self._pipeline = transformers.pipeline(
                 "text-generation", 
@@ -31,9 +30,10 @@ class LlamaLLM():
     def run_inference(
         self,
         inputs: str,
-        temperature: float = 0.6,
-        top_k: int = 20,
-        top_p: float = 0.9,
+        temperature: float = 1.0,
+        repetition_penalty: float = 1.0,
+        top_p: float = 1.0,
+        top_k: int = 50,
         num_return_sequences: int = 1,
         max_new_tokens: int = 256
     ) -> str:
@@ -41,8 +41,9 @@ class LlamaLLM():
             inputs,
             do_sample=True,
             temperature=temperature,
-            top_k=top_k,
+            repetition_penalty=repetition_penalty,
             top_p=top_p,
+            top_k=top_k,
             num_return_sequences=num_return_sequences,
             max_new_tokens=max_new_tokens,
             eos_token_id=[
