@@ -1,10 +1,4 @@
-torch>=2.1.1
-transformers>=4.38.2
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+transformers>=4.40.0
 accelerate
-trl 
-peft
-sentencepiece
-protobuf  
-cpm_kernels 
-gradio 
-mdtex2html 
+# pip install "git+https://github.com/PanQiWei/AutoGPTQ.git@v0.6.0"

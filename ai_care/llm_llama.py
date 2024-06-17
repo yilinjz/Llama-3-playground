@@ -1,6 +1,7 @@
 import torch
 import transformers
-from transformers import LlamaForCausalLM, LlamaTokenizer
+from transformers import AutoTokenizer
+from auto_gptq import AutoGPTQForCausalLM, BaseQuantizeConfig
 
 
 class LlamaLLM():
@@ -9,48 +10,67 @@ class LlamaLLM():
         model_id: str = "meta-llama/Meta-Llama-3-8B-Instruct"
     ) -> None:
         self._model_id = model_id
-        if "Meta-Llama-3" in self._model_id:
+        # print(torch.cuda.is_available())
+        # print(torch.__version__)
+        # print(transformers.__version__)
+
+        if "Meta-Llama-3-8B" in self._model_id:
             self._pipeline = transformers.pipeline(
                 "text-generation", 
                 model=model_id, 
                 model_kwargs={"torch_dtype": torch.bfloat16}, 
-                device_map="auto"
+                device_map="cuda"
             )
-        elif "Llama-2" in self._model_id:
+        elif "Meta-Llama-3-70B" in self._model_id:
+            quantize_config = BaseQuantizeConfig(
+                bits=4,
+                group_size=128,
+                desc_act=False
+            )
+            model = AutoGPTQForCausalLM.from_quantized(
+                model_id,
+                use_safetensors=True,
+                device="cuda",
+                quantize_config=quantize_config)
+            tokenizer = AutoTokenizer.from_pretrained(model_id)
             self._pipeline = transformers.pipeline(
-                "text-generation",
-                model=LlamaForCausalLM.from_pretrained(model_id),
-                tokenizer=LlamaTokenizer.from_pretrained(model_id),
-                torch_dtype=torch.float16,
-                device_map="auto",
+                "text-generation", 
+                model=model,
+                tokenizer=tokenizer,
+                model_kwargs={"torch_dtype": torch.bfloat16}, 
+                device_map="cuda"
             )
         else:
             raise ValueError("Model not supported.")
 
     def run_inference(
         self,
-        inputs: str,
-        temperature: float = 1.0,
-        repetition_penalty: float = 1.0,
-        top_p: float = 1.0,
+        prompt: str,
+        max_new_tokens: int = 256,
+        temperature: float = 0.6,
+        # repetition_penalty: float = 1.0,
+        top_p: float = 0.9,
         top_k: int = 50,
-        num_return_sequences: int = 1,
-        max_new_tokens: int = 256
+        num_return_sequences: int = 1
     ) -> str:
+        
+        terminators = [
+            self._pipeline.tokenizer.eos_token_id,
+            self._pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
+        ]
+
         outputs = self._pipeline(
-            inputs,
+            prompt,
+            max_new_tokens=max_new_tokens,
+            eos_token_id=terminators,
+            pad_token_id=self._pipeline.tokenizer.eos_token_id,
             do_sample=True,
             temperature=temperature,
-            repetition_penalty=repetition_penalty,
+            # repetition_penalty=repetition_penalty,
             top_p=top_p,
             top_k=top_k,
             num_return_sequences=num_return_sequences,
-            max_new_tokens=max_new_tokens,
-            eos_token_id=[
-                    self._pipeline.tokenizer.eos_token_id,
-                    self._pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
-                ],
-            pad_token_id=self._pipeline.tokenizer.eos_token_id,   
         )
-        return outputs[0]['generated_text']
+
+        return outputs[0]['generated_text'][len(prompt):]
         

@@ -1,0 +1,530 @@
+[
+    {
+        "TEXT": "Takeout",
+        "SCORE": 1.0,
+        "POSITION": [
+            1077,
+            27,
+            56,
+            16
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Order Time:2024-03-22 17:13:52",
+        "SCORE": 1.0,
+        "POSITION": [
+            1024,
+            94,
+            185,
+            -37
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Receipt Number:01HSJQ09E455GD4HKD5YND474E",
+        "SCORE": 1.0,
+        "POSITION": [
+            1052,
+            108,
+            230,
+            -52
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Singapore Hainanese Chicken",
+        "SCORE": 1.0,
+        "POSITION": [
+            1020,
+            172,
+            157,
+            -13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "UMOOS",
+        "SCORE": 1.0,
+        "POSITION": [
+            1517,
+            144,
+            47,
+            10
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "[ Lax @dv SNd U! JapJo 15J !!",
+        "SCORE": 1.0,
+        "POSITION": [
+            1638,
+            174,
+            287,
+            9
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Download: PNS.",
+        "SCORE": 1.0,
+        "POSITION": [
+            1647,
+            139,
+            -174,
+            -10
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Order Number:80",
+        "SCORE": 1.0,
+        "POSITION": [
+            999,
+            233,
+            85,
+            -7
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "$51.0",
+        "SCORE": 1.0,
+        "POSITION": [
+            1257,
+            208,
+            47,
+            3
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Promo Codes",
+        "SCORE": 1.0,
+        "POSITION": [
+            1645,
+            156,
+            -197,
+            -13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Download PNS App",
+        "SCORE": 1.0,
+        "POSITION": [
+            1638,
+            189,
+            -159,
+            -20
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "1x Sausage Pork Chop/Chicken Fillet with Rice",
+        "SCORE": 1.0,
+        "POSITION": [
+            1027,
+            269,
+            121,
+            -17
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "1x Secret Sauce",
+        "SCORE": 1.0,
+        "POSITION": [
+            1032,
+            353,
+            75,
+            -4
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "87486041125132024030-",
+        "SCORE": 1.0,
+        "POSITION": [
+            1592,
+            302,
+            -220,
+            -17
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "1x Rice",
+        "SCORE": 1.0,
+        "POSITION": [
+            1026,
+            395,
+            51,
+            -1
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "1x Light on Salt",
+        "SCORE": 1.0,
+        "POSITION": [
+            1034,
+            434,
+            53,
+            3
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "1x broad outline",
+        "SCORE": 1.0,
+        "POSITION": [
+            1039,
+            473,
+            50,
+            4
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Subtotal:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1230,
+            508,
+            33,
+            8
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "51.0",
+        "SCORE": 1.0,
+        "POSITION": [
+            1304,
+            497,
+            29,
+            6
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Discount:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1236,
+            527,
+            36,
+            7
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "0.0",
+        "SCORE": 1.0,
+        "POSITION": [
+            1311,
+            516,
+            22,
+            13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Total Amount:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1241,
+            547,
+            48,
+            9
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "51.0",
+        "SCORE": 1.0,
+        "POSITION": [
+            1311,
+            540,
+            28,
+            11
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Payment Information",
+        "SCORE": 1.0,
+        "POSITION": [
+            1051,
+            613,
+            50,
+            4
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Payment Method:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1053,
+            633,
+            55,
+            7
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "OCTOPUS",
+        "SCORE": 1.0,
+        "POSITION": [
+            1309,
+            607,
+            42,
+            12
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Deduction Amount:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1058,
+            652,
+            56,
+            6
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "51.0000",
+        "SCORE": 1.0,
+        "POSITION": [
+            1312,
+            629,
+            45,
+            15
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Remaining Balance:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1048,
+            675,
+            32,
+            8
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "160.7",
+        "SCORE": 1.0,
+        "POSITION": [
+            1321,
+            652,
+            26,
+            14
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Card Number",
+        "SCORE": 1.0,
+        "POSITION": [
+            1051,
+            693,
+            26,
+            8
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "169828274",
+        "SCORE": 1.0,
+        "POSITION": [
+            1311,
+            675,
+            55,
+            13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Machine Number:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1055,
+            713,
+            31,
+            10
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "58BD26",
+        "SCORE": 1.0,
+        "POSITION": [
+            1322,
+            696,
+            33,
+            13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Invoice Number:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1069,
+            730,
+            56,
+            13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "3278",
+        "SCORE": 1.0,
+        "POSITION": [
+            1331,
+            720,
+            22,
+            14
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Transaction Hour:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1075,
+            752,
+            62,
+            13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "2024-03-22 05:13.40",
+        "SCORE": 1.0,
+        "POSITION": [
+            1285,
+            740,
+            115,
+            15
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "UGREEN",
+        "SCORE": 1.0,
+        "POSITION": [
+            1031,
+            870,
+            204,
+            65
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Tel:0755-28066995",
+        "SCORE": 1.0,
+        "POSITION": [
+            982,
+            941,
+            111,
+            40
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Ugreen Group Limited",
+        "SCORE": 1.0,
+        "POSITION": [
+            982,
+            960,
+            107,
+            37
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Add: Ugreen Building, Longcheng Industrial Park,",
+        "SCORE": 1.0,
+        "POSITION": [
+            1051,
+            993,
+            250,
+            70
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Website:www.ugreen.com",
+        "SCORE": 1.0,
+        "POSITION": [
+            1134,
+            971,
+            131,
+            43
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Longguanxi Road, Longhua, Shenzhen, China",
+        "SCORE": 1.0,
+        "POSITION": [
+            1070,
+            1016,
+            241,
+            68
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Tel: +86-755-28066995 Web: www.ugreen.com",
+        "SCORE": 1.0,
+        "POSITION": [
+            1065,
+            1033,
+            270,
+            81
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "UGREEN is a registered trademark of Ugreen G",
+        "SCORE": 1.0,
+        "POSITION": [
+            1049,
+            1045,
+            245,
+            68
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Limited. All rights reserved.",
+        "SCORE": 1.0,
+        "POSITION": [
+            994,
+            1053,
+            136,
+            49
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Implementation standards:Q/LLY",
+        "SCORE": 1.0,
+        "POSITION": [
+            965,
+            1063,
+            80,
+            31
+        ],
+        "DISTANCE": 0
+    }
+]

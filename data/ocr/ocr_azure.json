@@ -1,0 +1,552 @@
+[
+    {
+        "TEXT": "外賣",
+        "SCORE": 1.0,
+        "POSITION": [
+            1077,
+            27,
+            56,
+            16
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "點餐時間:2024-03-22 17:13:52",
+        "SCORE": 1.0,
+        "POSITION": [
+            1024,
+            94,
+            185,
+            -37
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "收據號碼:01HSJQ09E455GD4HKD5YND474E",
+        "SCORE": 1.0,
+        "POSITION": [
+            1052,
+            108,
+            230,
+            -52
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "新加坡海南雞",
+        "SCORE": 1.0,
+        "POSITION": [
+            1020,
+            172,
+            157,
+            -13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "UMOOS",
+        "SCORE": 1.0,
+        "POSITION": [
+            1517,
+            144,
+            47,
+            10
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "[ Lax @dv SNd U! JapJo 15J !!",
+        "SCORE": 1.0,
+        "POSITION": [
+            1638,
+            174,
+            287,
+            9
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Download: PNS.",
+        "SCORE": 1.0,
+        "POSITION": [
+            1647,
+            139,
+            -174,
+            -10
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "點餐號碼:80",
+        "SCORE": 1.0,
+        "POSITION": [
+            999,
+            233,
+            85,
+            -7
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "$51.0",
+        "SCORE": 1.0,
+        "POSITION": [
+            1257,
+            208,
+            47,
+            3
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "優惠碼 Promo Codes",
+        "SCORE": 1.0,
+        "POSITION": [
+            1645,
+            156,
+            -197,
+            -13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "当久於PNS App",
+        "SCORE": 1.0,
+        "POSITION": [
+            1638,
+            189,
+            -159,
+            -20
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "1x 腸仔猪扒/雞扒飯",
+        "SCORE": 1.0,
+        "POSITION": [
+            1027,
+            269,
+            121,
+            -17
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "1x 秘製燒汁",
+        "SCORE": 1.0,
+        "POSITION": [
+            1032,
+            353,
+            75,
+            -4
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "87486041125132024030-",
+        "SCORE": 1.0,
+        "POSITION": [
+            1592,
+            302,
+            -220,
+            -17
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "1x 白飯",
+        "SCORE": 1.0,
+        "POSITION": [
+            1026,
+            395,
+            51,
+            -1
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "1x 少鹽",
+        "SCORE": 1.0,
+        "POSITION": [
+            1034,
+            434,
+            53,
+            3
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "1x 概沟",
+        "SCORE": 1.0,
+        "POSITION": [
+            1039,
+            473,
+            50,
+            4
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "小計:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1230,
+            508,
+            33,
+            8
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "51.0",
+        "SCORE": 1.0,
+        "POSITION": [
+            1304,
+            497,
+            29,
+            6
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "折扣:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1236,
+            527,
+            36,
+            7
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "0.0",
+        "SCORE": 1.0,
+        "POSITION": [
+            1311,
+            516,
+            22,
+            13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "總金額:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1241,
+            547,
+            48,
+            9
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "51.0",
+        "SCORE": 1.0,
+        "POSITION": [
+            1311,
+            540,
+            28,
+            11
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "付款資料",
+        "SCORE": 1.0,
+        "POSITION": [
+            1051,
+            613,
+            50,
+            4
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "付款方式:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1053,
+            633,
+            55,
+            7
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "OCTOPUS",
+        "SCORE": 1.0,
+        "POSITION": [
+            1309,
+            607,
+            42,
+            12
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "扣除金額:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1058,
+            652,
+            56,
+            6
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "51.0000",
+        "SCORE": 1.0,
+        "POSITION": [
+            1312,
+            629,
+            45,
+            15
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "餘額:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1048,
+            675,
+            32,
+            8
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "160.7",
+        "SCORE": 1.0,
+        "POSITION": [
+            1321,
+            652,
+            26,
+            14
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "卡號",
+        "SCORE": 1.0,
+        "POSITION": [
+            1051,
+            693,
+            26,
+            8
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "169828274",
+        "SCORE": 1.0,
+        "POSITION": [
+            1311,
+            675,
+            55,
+            13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "機號:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1055,
+            713,
+            31,
+            10
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "58BD26",
+        "SCORE": 1.0,
+        "POSITION": [
+            1322,
+            696,
+            33,
+            13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "發票號碼:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1069,
+            730,
+            56,
+            13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "3278",
+        "SCORE": 1.0,
+        "POSITION": [
+            1331,
+            720,
+            22,
+            14
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "交易時間:",
+        "SCORE": 1.0,
+        "POSITION": [
+            1075,
+            752,
+            62,
+            13
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "2024-03-22 05:13.40",
+        "SCORE": 1.0,
+        "POSITION": [
+            1285,
+            740,
+            115,
+            15
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "UGREEN 绿联",
+        "SCORE": 1.0,
+        "POSITION": [
+            1031,
+            870,
+            204,
+            65
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "深圳市绿联科技股份有限公司",
+        "SCORE": 1.0,
+        "POSITION": [
+            998,
+            912,
+            136,
+            40
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "地址:深圳市龙华区龙观西路龙城工业区绿联办公大楼",
+        "SCORE": 1.0,
+        "POSITION": [
+            1063,
+            940,
+            272,
+            67
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "电话:0755-28066995",
+        "SCORE": 1.0,
+        "POSITION": [
+            982,
+            941,
+            111,
+            40
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Ugreen Group Limited",
+        "SCORE": 1.0,
+        "POSITION": [
+            982,
+            960,
+            107,
+            37
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Add: Ugreen Building, Longcheng Industrial Park,",
+        "SCORE": 1.0,
+        "POSITION": [
+            1051,
+            993,
+            250,
+            70
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "官网:www.ugreen.com",
+        "SCORE": 1.0,
+        "POSITION": [
+            1134,
+            971,
+            131,
+            43
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Longguanxi Road, Longhua, Shenzhen, China",
+        "SCORE": 1.0,
+        "POSITION": [
+            1070,
+            1016,
+            241,
+            68
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Tel: +86-755-28066995 Web: www.ugreen.com",
+        "SCORE": 1.0,
+        "POSITION": [
+            1065,
+            1033,
+            270,
+            81
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "UGREEN is a registered trademark of Ugreen G",
+        "SCORE": 1.0,
+        "POSITION": [
+            1049,
+            1045,
+            245,
+            68
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "Limited. All rights reserved.",
+        "SCORE": 1.0,
+        "POSITION": [
+            994,
+            1053,
+            136,
+            49
+        ],
+        "DISTANCE": 0
+    },
+    {
+        "TEXT": "执行标准:Q/LLY",
+        "SCORE": 1.0,
+        "POSITION": [
+            965,
+            1063,
+            80,
+            31
+        ],
+        "DISTANCE": 0
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "qid": "0",
+        "en-US": "What kind of receipt is this?",
+        "zh-HK": "這是什麼收據？"
+    },
+    {
+        "qid": "1",
+        "en-US": "Did I order takeout or dine-in?",
+        "zh-HK": "我點嘅係外賣仲係堂食？"
+    },
+    {
+        "qid": "2",
+        "en-US": "When did I make this order?",
+        "zh-HK": "我幾時落呢個訂單嘅？"
+    },
+    {
+        "qid": "3",
+        "en-US": "What is the receipt number?",
+        "zh-HK": "收據編號係幾多？"
+    },
+    {
+        "qid": "4",
+        "en-US": "What is the order number?",
+        "zh-HK": "訂單號係幾多？"
+    },
+    {
+        "qid": "5",
+        "en-US": "How much did I spend?",
+        "zh-HK": "我使咗几多钱？"
+    },
+    {
+        "qid": "6",
+        "en-US": "What meal did I order?",
+        "zh-HK": "我點咗乜嘢餐？"
+    },
+    {
+        "qid": "7",
+        "en-US": "How much discount did I get?",
+        "zh-HK": "我得到咗幾多折扣？"
+    },
+    {
+        "qid": "8",
+        "en-US": "What is the price after discount?",
+        "zh-HK": "折扣後嘅價錢係幾多？"
+    },
+    {
+        "qid": "9",
+        "en-US": "What payment method did I use?",
+        "zh-HK": "我使用咗乜嘢付款方式？"
+    },
+    {
+        "qid": "10",
+        "en-US": "How much money was deducted from my card?",
+        "zh-HK": "從我嘅卡中扣除咗幾多錢？"
+    },
+    {
+        "qid": "11",
+        "en-US": "How much money was remained from my card?",
+        "zh-HK": "我嘅卡仲剩幾多錢？"
+    },
+    {
+        "qid": "12",
+        "en-US": "When was the transaction made?",
+        "zh-HK": "交易係幾時進行嘅？"
+    },
+    {
+        "qid": "13",
+        "en-US": "What is the name of the company that provided the payment terminal used?",
+        "zh-HK": "提供所用支付終端嘅公司名稱係乜嘢？"
+    },
+    {
+        "qid": "14",
+        "en-US": "What is the address of this company named UGREEN?",
+        "zh-HK": "呢間名為绿联嘅公司地址係乜嘢？"
+    },
+    {
+        "qid": "15",
+        "en-US": "I asked for less salt on my meal. Did the waiter include this on the order?",
+        "zh-HK": "我要求少食啲鹽。 侍應是否在訂單中包含咗呢個？"
+    },
+    {
+        "qid": "16",
+        "en-US": "I will get a haircut next. The haircut will cost 200 HK dollar. Do I have enough money in my Octopus card?",
+        "zh-HK": "我接下來要去理髮。 理髮費用為200蚊。 我嘅八達通卡度有足夠嘅錢呀？"
+    },
+    {
+        "qid": "17",
+        "en-US": "What is the name of the waiter?",
+        "zh-HK": "侍應叫咩名？"
+    }, 
+    {
+        "qid": "18",
+        "en-US": "What did I drink?",
+        "zh-HK": "我飲咗乜嘢?"
+    }
+]
