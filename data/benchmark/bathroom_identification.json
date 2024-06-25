@@ -1,0 +1,184 @@
+[
+    {
+        "scene_id": "bathroom_44",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "What object is directly in front of me?",
+                    "zh-HK": "乜嘢物體就喺我面前？"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "Can you identify the item on my left side?",
+                    "zh-HK": "你可唔可以認出我左邊嘅物品啊？"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "What item is the closest to me?",
+                    "zh-HK": "乜嘢物品離我最近？"
+                }
+            }
+        ]
+    },
+    {
+        "scene_id": "bathroom_49",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "What object is directly in front of me?",
+                    "zh-HK": "乜嘢物體就喺我面前？"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "Can you identify the item on my left side?",
+                    "zh-HK": "你可唔可以認出我左邊嘅物品啊？"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "What item is the closest to me?",
+                    "zh-HK": "乜嘢物品離我最近？"
+                }
+            }
+        ]
+    },
+    {
+        "scene_id": "bathroom_170",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "What object is directly in front of me?",
+                    "zh-HK": "乜嘢物體就喺我面前？"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "Can you identify the item on my left side?",
+                    "zh-HK": "你可唔可以認出我左邊嘅物品啊？"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "What item is the closest to me?",
+                    "zh-HK": "乜嘢物品離我最近？"
+                }
+            }
+        ]
+    },
+    {
+        "scene_id": "bathroom_500",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "What object is directly in front of me?",
+                    "zh-HK": "乜嘢物體就喺我面前？"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "Can you identify the item on my left side?",
+                    "zh-HK": "你可唔可以認出我左邊嘅物品啊？"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "What item is the closest to me?",
+                    "zh-HK": "乜嘢物品離我最近？"
+                }
+            }
+        ]
+    },
+    {
+        "scene_id": "bathroom_505",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "What object is directly in front of me?",
+                    "zh-HK": "乜嘢物體就喺我面前？"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "Can you identify the item on my left side?",
+                    "zh-HK": "你可唔可以認出我左邊嘅物品啊？"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "What item is the closest to me?",
+                    "zh-HK": "乜嘢物品離我最近？"
+                }
+            }
+        ]
+    },
+    {
+        "scene_id": "bathroom_509",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "What object is directly in front of me?",
+                    "zh-HK": "乜嘢物體就喺我面前？"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "Can you identify the item on my left side?",
+                    "zh-HK": "你可唔可以認出我左邊嘅物品啊？"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "What item is the closest to me?",
+                    "zh-HK": "乜嘢物品離我最近？"
+                }
+            }
+        ]
+    },
+    {
+        "scene_id": "bathroom_656",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "What object is directly in front of me?",
+                    "zh-HK": "乜嘢物體就喺我面前？"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "Can you identify the item on my left side?",
+                    "zh-HK": "你可唔可以認出我左邊嘅物品啊？"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "What item is the closest to me?",
+                    "zh-HK": "乜嘢物品離我最近？"
+                }
+            }
+        ]
+    }
+]

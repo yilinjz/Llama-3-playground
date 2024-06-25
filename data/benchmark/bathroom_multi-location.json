@@ -1,0 +1,184 @@
+[
+    {
+        "scene_id": "bathroom_44",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "From sink, which direction should I move to find toilet?",
+                    "zh-HK": "我由水槽要行邊個方向去揾廁所？"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "Can you point me towards toothbrush from where sink is?",
+                    "zh-HK": "你可以指俾我睇，由水槽點樣揾到牙刷？"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "From toothbrush, which direction should I move to find cup?",
+                    "zh-HK": "我由牙刷要行邊個方向去揾杯子？"
+                }
+            }
+        ]
+    },
+    {
+        "scene_id": "bathroom_49",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "Where is toilet located relative to sink?",
+                    "zh-HK": "廁所喺在水槽的邊度?"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "Where is toothbrush located relative to toothpaste?",
+                    "zh-HK": "牙刷喺在牙膏的邊度?"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "If I'm facing toothbrush, in which direction is bottle?",
+                    "zh-HK": "我對住牙刷，瓶子喺邊個方向？"
+                }
+            }
+        ]
+    },
+    {
+        "scene_id": "bathroom_170",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "If I'm facing sink, in which direction is toilet?",
+                    "zh-HK": "我對住水槽，廁所喺邊個方向？"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "If I'm facing sink, in which direction is person?",
+                    "zh-HK": "我對住水槽，人喺邊個方向？"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "How do I reach person from toilet?",
+                    "zh-HK": "我點樣可以由廁所去到人？"
+                }
+            }
+        ]
+    },
+    {
+        "scene_id": "bathroom_500",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "Where is toilet located relative to sink?",
+                    "zh-HK": "廁所喺在水槽的邊度?"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "If I'm facing sink, in which direction is toothbrush?",
+                    "zh-HK": "我對住水槽，牙刷喺邊個方向？"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "How do I reach person from sink?",
+                    "zh-HK": "我點樣可以由水槽去到人？"
+                }
+            }
+        ]
+    },
+    {
+        "scene_id": "bathroom_505",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "From sink, which direction should I move to find toilet?",
+                    "zh-HK": "我由水槽要行邊個方向去揾廁所？"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "From sink, which direction should I move to find bottle?",
+                    "zh-HK": "我由水槽要行邊個方向去揾瓶子？"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "How do I reach bottle from toilet?",
+                    "zh-HK": "我點樣可以由廁所去到瓶子？"
+                }
+            }
+        ]
+    },
+    {
+        "scene_id": "bathroom_509",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "Where is toothbrush located relative to sink?",
+                    "zh-HK": "牙刷喺在水槽的邊度?"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "If I'm facing bottle, in which direction is toothbrush?",
+                    "zh-HK": "我對住瓶子，牙刷喺邊個方向？"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "How do I reach sink from bottle?",
+                    "zh-HK": "我點樣可以由瓶子去到水槽？"
+                }
+            }
+        ]
+    },
+    {
+        "scene_id": "bathroom_656",
+        "qa_pairs": [
+            {
+                "qid": "0",
+                "query": {
+                    "en-US": "If I'm facing sink, in which direction is toilet?",
+                    "zh-HK": "我對住水槽，廁所喺邊個方向？"
+                }
+            },
+            {
+                "qid": "1",
+                "query": {
+                    "en-US": "How do I reach bottle from toilet?",
+                    "zh-HK": "我點樣可以由廁所去到瓶子？"
+                }
+            },
+            {
+                "qid": "2",
+                "query": {
+                    "en-US": "How do I reach cup from sink?",
+                    "zh-HK": "我點樣可以由水槽去到杯子？"
+                }
+            }
+        ]
+    }
+]

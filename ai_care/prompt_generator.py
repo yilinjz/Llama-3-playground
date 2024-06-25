@@ -18,7 +18,7 @@ class PromptGenerator():
         # instruction
         # with open('prompt/instruction_cantonese.txt', encoding="utf8", mode='r') as f:
         #     instruction = f"# Instruction\n\n{''.join(f.readlines())}\n\n"
-        instruction = json.load(open('prompt/instruction.json', encoding="utf8"))['zh-HK']
+        instruction = json.load(open('prompt/ocr_instruction.json', encoding="utf8"))['zh-HK']
 
         # query
         query_prompt = f"# Query:\n```{query}```\n\n"
