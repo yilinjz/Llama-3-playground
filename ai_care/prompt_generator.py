@@ -26,14 +26,14 @@ class PromptGenerator():
         query: str,
         context: str,
         tokenizer: AutoTokenizer,
-        instruction_file_path: str,
+        path_to_instruction: str,
         language_mode: str
     ) -> str:
         
         # instruction
         # with open('prompt/instruction_cantonese.txt', encoding="utf8", mode='r') as f:
         #     instruction = f"# Instruction\n\n{''.join(f.readlines())}\n\n"
-        instruction = json.load(open(instruction_file_path, encoding="utf8"))[language_mode]
+        instruction = json.load(open(path_to_instruction, encoding="utf8"))[language_mode]
 
         # query
         query_prompt = f"# {self._prompt_words['query']}:\n```{query}```\n\n"

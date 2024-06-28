@@ -1,0 +1,79 @@
+[
+    {
+        "POSITION": [
+            475,
+            302,
+            120,
+            193
+        ],
+        "ORIENTATION": "slightly-right",
+        "TEXT": "toilet",
+        "DEPTH": 2.5
+    },
+    {
+        "POSITION": [
+            245,
+            87,
+            62,
+            84
+        ],
+        "ORIENTATION": "slightly-up",
+        "TEXT": "person",
+        "DEPTH": 4.17
+    },
+    {
+        "POSITION": [
+            305,
+            83,
+            28,
+            93
+        ],
+        "ORIENTATION": "slightly-up",
+        "TEXT": "person",
+        "DEPTH": 6.65
+    },
+    {
+        "POSITION": [
+            194,
+            182,
+            8,
+            58
+        ],
+        "ORIENTATION": "slightly-left",
+        "TEXT": "toothbrush",
+        "DEPTH": 2.33
+    },
+    {
+        "POSITION": [
+            259,
+            217,
+            84,
+            17
+        ],
+        "ORIENTATION": "slightly-left",
+        "TEXT": "sink",
+        "DEPTH": 2.48
+    },
+    {
+        "POSITION": [
+            228,
+            193,
+            17,
+            37
+        ],
+        "ORIENTATION": "slightly-left",
+        "TEXT": "bottle",
+        "DEPTH": 2.53
+    },
+    {
+        "POSITION": [
+            351,
+            195,
+            15,
+            38
+        ],
+        "ORIENTATION": "slightly-up and slightly-right",
+        "TEXT": "bottle",
+        "DEPTH": 2.36
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "POSITION": [
+            144,
+            284,
+            61,
+            90
+        ],
+        "ORIENTATION": "slightly-left",
+        "TEXT": "cup",
+        "DEPTH": 1.05
+    },
+    {
+        "POSITION": [
+            233,
+            226,
+            26,
+            93
+        ],
+        "ORIENTATION": "slightly-left",
+        "TEXT": "toothbrush",
+        "DEPTH": 1.24
+    },
+    {
+        "POSITION": [
+            214,
+            219,
+            29,
+            105
+        ],
+        "ORIENTATION": "slightly-left",
+        "TEXT": "toothbrush",
+        "DEPTH": 1.21
+    },
+    {
+        "POSITION": [
+            271,
+            357,
+            181,
+            134
+        ],
+        "ORIENTATION": "slightly-down",
+        "TEXT": "sink",
+        "DEPTH": 1.16
+    },
+    {
+        "POSITION": [
+            50,
+            294,
+            58,
+            73
+        ],
+        "ORIENTATION": "left",
+        "TEXT": "cup",
+        "DEPTH": 1.01
+    },
+    {
+        "POSITION": [
+            394,
+            210,
+            428,
+            150
+        ],
+        "ORIENTATION": "slightly-right",
+        "TEXT": "sink",
+        "DEPTH": 2.63
+    },
+    {
+        "POSITION": [
+            360,
+            352,
+            377,
+            235
+        ],
+        "ORIENTATION": "slightly-down",
+        "TEXT": "sink",
+        "DEPTH": 1.0
+    },
+    {
+        "POSITION": [
+            135,
+            374,
+            133,
+            189
+        ],
+        "ORIENTATION": "slightly-down and slightly-left",
+        "TEXT": "bottle",
+        "DEPTH": 0.85
+    },
+    {
+        "POSITION": [
+            189,
+            221,
+            23,
+            80
+        ],
+        "ORIENTATION": "slightly-left",
+        "TEXT": "toothbrush",
+        "DEPTH": 1.19
+    },
+    {
+        "POSITION": [
+            188,
+            210,
+            21,
+            58
+        ],
+        "ORIENTATION": "slightly-left",
+        "TEXT": "toothbrush",
+        "DEPTH": 1.26
+    }
+]
