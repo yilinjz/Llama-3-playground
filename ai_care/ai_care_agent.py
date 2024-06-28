@@ -26,7 +26,13 @@ class AICareAgent():
         self,
         query: str
     ) -> str:
-        prompt = self._prompt_generator.create_prompt(query, self._context, self._llm._pipeline.tokenizer)
+        prompt = self._prompt_generator.create_prompt(
+            query, 
+            self._context, 
+            self._llm._pipeline.tokenizer, 
+            'prompt/ocr_instruction.json',
+            'zh-HK'
+        )
         response = self._llm.run_inference(prompt)
         return prompt, response
 

@@ -3,12 +3,7 @@ import logging
 
 import ollama
 
-
-
-log = logging.getLogger()
-
-prompt = "",
-
+from ai_care.prompt_generator import PromptGenerator
 
 
 def ai_agent_remote(question):
@@ -43,6 +38,7 @@ def cmd_agent():
 
 
 if __name__ == '__main__':
+    log = logging.getLogger()
     # cmd agent init
     cmd_agent()
     
