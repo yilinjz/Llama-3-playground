@@ -15,12 +15,10 @@ def ai_agent_remote(query, context, system_prompt, language):
     query_prompt = f"# {prompt_words['query'][language]}:\n```{query}```\n\n"
     # context (i.e. the text data)
     context_prompt = f"# {prompt_words['context'][language]}:\n```{context}```\n\n"
-    # answer
-    answer_prompt = f"# {prompt_words['answer'][language]}:\n"
 
     messages = [
         {"role": "system", "content": f"{system_prompt}"},
-        {"role": "user", "content": f"{query_prompt}{context_prompt}{answer_prompt}"}
+        {"role": "user", "content": f"{query_prompt}{context_prompt}"}
     ]
 
     client = ollama.Client(host = "http://127.0.0.1:11434")
@@ -66,6 +64,9 @@ def cmd_agent():
                         system_prompt=system_prompt,
                         language=language,
                     )   
+
+        print(benchmark_name)
+        print(path_to_instruction)
 
     with open(f'benchmark/experiment_result/{model_id}-{benchmark_name}-experiment_result.json', 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)                 
