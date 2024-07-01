@@ -27,20 +27,20 @@ class PromptGenerator():
         context: str,
         tokenizer: AutoTokenizer,
         path_to_instruction: str,
-        language_mode: str
+        language: str
     ) -> str:
         
         # instruction
         # with open('prompt/instruction_cantonese.txt', encoding="utf8", mode='r') as f:
         #     instruction = f"# Instruction\n\n{''.join(f.readlines())}\n\n"
-        instruction = json.load(open(path_to_instruction, encoding="utf8"))[language_mode]
+        instruction = json.load(open(path_to_instruction, encoding="utf8"))[language]
 
         # query
-        query_prompt = f"# {self._prompt_words['query']}:\n```{query}```\n\n"
+        query_prompt = f"# {self._prompt_words['query'][language]}:\n```{query}```\n\n"
         # context (i.e. the text data)
-        context_prompt = f"# {self._prompt_words['context']}:\n```{context}```\n\n"
+        context_prompt = f"# {self._prompt_words['context'][language]}:\n```{context}```\n\n"
         # answer
-        answer_prompt = f"# {self._prompt_words['answer']}:\n"
+        answer_prompt = f"# {self._prompt_words['answer'][language]}:\n"
 
         messages = [
             {"role": "system", "content": f"{instruction}"},

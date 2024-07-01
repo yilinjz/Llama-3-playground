@@ -4,23 +4,38 @@ import json
 
 import ollama
 
-from transformers import AutoTokenizer
-from ai_care.prompt_generator import PromptGenerator
 from utils.const import benchmark_list, instruction_list, language_list
 
 
-def ai_agent_remote(query, context, path_to_instruction, language_mode):
-    client = ollama.Client(host = "http://127.0.0.1:11434")
+def ai_agent_remote(query, context, system_prompt, language):
+    prompt_words = {
+        "query": {
+            "en-US": "Query",
+            "zh-HK": "問題"
+        },
+        "context": {
+            "en-US": "Context",
+            "zh-HK": "上下文"
+        },
+        "answer": {
+            "en-US": "Answer",
+            "zh-HK": "答案"
+        }
+    }
+    # query
+    query_prompt = f"# {prompt_words['query'][language]}:\n```{query}```\n\n"
+    # context (i.e. the text data)
+    context_prompt = f"# {prompt_words['context'][language]}:\n```{context}```\n\n"
+    # answer
+    answer_prompt = f"# {prompt_words['answer'][language]}:\n"
 
-    prompt_generator = PromptGenerator()
-    prompt = prompt_generator.create_prompt(
-        query=query,
-        context=context,
-        tokenizer=AutoTokenizer.from_pretrained('meta-llama/Meta-Llama-3-8B-Instruct'),
-        path_to_instruction=path_to_instruction,
-        language_mode=language_mode,
-    )
-    response = client.chat(model='llama3:70b', messages=[ { 'role': 'user', 'content': prompt.replace('[dt]',  question), },])
+    messages = [
+        {"role": "system", "content": f"{system_prompt}"},
+        {"role": "user", "content": f"{query_prompt}{context_prompt}{answer_prompt}"}
+    ]
+
+    client = ollama.Client(host = "http://127.0.0.1:11434")
+    response = client.chat(model='llama3:70b', messages=messages)
     # print(response)
     return response['message']['content']
 
@@ -54,12 +69,13 @@ def cmd_agent():
                     query = qa_pair[language]
                     # each scene goes through 4 instruction scenarios
                     path_to_instruction = f"benchmark/prompt/{instruction_list[k%4]}.json"
+                    system_prompt = json.load(open(path_to_instruction, encoding="utf8"))[language]
                     # run inferance
                     data[i]['qa_pairs'][j]['result'][language] = ai_agent_remote(
                         query=query,
                         context=context,
-                        path_to_instruction=path_to_instruction,
-                        language_mode=language,
+                        system_prompt=system_prompt,
+                        language=language,
                     )   
 
     with open(f'benchmark/experiment_result/f{benchmark_name}-experiment_result.json', 'w', encoding='utf-8') as f:
