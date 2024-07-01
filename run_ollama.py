@@ -44,8 +44,8 @@ def process_context(context_json):
     for object in context_json:
         text = object['TEXT']
         oritentation = object['ORIENTATION']
-        depth = object['depth']
-        position = object['position']
+        depth = object['DEPTH']
+        position = object['POSITION']
         context.append(f"({text}, {oritentation}, {depth}, {position})")
     return context
 
