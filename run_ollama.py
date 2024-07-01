@@ -66,7 +66,7 @@ def cmd_agent():
                 data[i]['qa_pairs'][j]['result'] = {}
                 # English and Cantonese
                 for language in language_list:
-                    query = qa_pair[language]
+                    query = qa_pair['query'][language]
                     # each scene goes through 4 instruction scenarios
                     path_to_instruction = f"benchmark/prompt/{instruction_list[k%4]}.json"
                     system_prompt = json.load(open(path_to_instruction, encoding="utf8"))[language]
