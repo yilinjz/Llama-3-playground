@@ -4,24 +4,13 @@ import json
 
 import ollama
 
-from utils.const import benchmark_list, instruction_list, language_list
+from utils.const import benchmark_list, instruction_list, language_list, prompt_words
 
+###### MODEL ID #####
+model_id = 'llama3'
+###### MODEL ID #####
 
 def ai_agent_remote(query, context, system_prompt, language):
-    prompt_words = {
-        "query": {
-            "en-US": "Query",
-            "zh-HK": "問題"
-        },
-        "context": {
-            "en-US": "Context",
-            "zh-HK": "上下文"
-        },
-        "answer": {
-            "en-US": "Answer",
-            "zh-HK": "答案"
-        }
-    }
     # query
     query_prompt = f"# {prompt_words['query'][language]}:\n```{query}```\n\n"
     # context (i.e. the text data)
@@ -35,7 +24,7 @@ def ai_agent_remote(query, context, system_prompt, language):
     ]
 
     client = ollama.Client(host = "http://127.0.0.1:11434")
-    response = client.chat(model='llama3:70b', messages=messages)
+    response = client.chat(model=model_id, messages=messages)
     # print(response)
     return response['message']['content']
 
@@ -78,7 +67,7 @@ def cmd_agent():
                         language=language,
                     )   
 
-    with open(f'benchmark/experiment_result/f{benchmark_name}-experiment_result.json', 'w', encoding='utf-8') as f:
+    with open(f'benchmark/experiment_result/{model_id}-{benchmark_name}-experiment_result.json', 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)                 
 
     log.info("SYSTEM: cmd agent end <<<<<")

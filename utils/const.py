@@ -16,3 +16,18 @@ language_list = [
     'en-US',
     'zh-HK',
 ]
+
+prompt_words = {
+    "query": {
+        "en-US": "Question",
+        "zh-HK": "問題"
+    },
+    "context": {
+        "en-US": "Context",
+        "zh-HK": "上下文"
+    },
+    "answer": {
+        "en-US": "Answer",
+        "zh-HK": "答案"
+    }
+}
